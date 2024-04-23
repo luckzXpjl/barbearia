@@ -1,12 +1,17 @@
-h1{
+.titulo-centralizado{
   text-align: center;
 }
 
-h2{
-  text-align: center;
+.titulo-principal{
+  padding-left: 30px;
 }
 
-p {
+.principal{
+  background-color:#CCCCCC;
+  padding: 30px;
+}
+
+p{
   text-align: center;
 }
 
