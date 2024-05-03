@@ -26,3 +26,18 @@ em strong{
 #banner{
   width: 100%;
 }
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+#beneficios{
+  width: 50%;
+}
+
+.item {
+  style: italic;
+}
