@@ -98,3 +98,10 @@ main{
 form{
   margin: 40px 0;
 }
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
