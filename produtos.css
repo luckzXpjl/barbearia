@@ -99,6 +99,12 @@ form{
   margin: 40px 0;
 }
 
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
 .input-padrao{
   display: block;
   margin-bottom: 20px;
