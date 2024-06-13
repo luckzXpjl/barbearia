@@ -111,3 +111,34 @@ form label, form legend{
   padding: 10px 25px;
   width: 50%;
 }
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: lightslategray;
+  color: mediumblue;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.enviar:hover{
+  background: gold;
+  transform: scale(0.8);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+
+thead{
+  background: lightslategray;
+  font-weight: bold;
+}
