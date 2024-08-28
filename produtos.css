@@ -1,10 +1,13 @@
-header {
-  background-color: lightslategray;
-  padding: 20px 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
 }
 
-em strong{
-  color: gold;
+header {
+  background: slategray;
+  padding: 20px 0;
 }
 
 .caixa{
@@ -13,7 +16,7 @@ em strong{
   margin: 0 auto;
 }
 
-nav{
+nav {
   position: absolute;
   top: 110px;
   right: 0;
@@ -22,15 +25,15 @@ nav{
 nav li{
   display: inline;
   margin-left: 15px;
-    }
+}
 
 nav a{
-  color: #000000;
+  color: midnightblue;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-}  
+}
 
 nav a:hover{
   color: gold;
@@ -60,14 +63,14 @@ nav a:hover{
   font-weight: bold;
 }
 
-.produtos-descricao{
+.produto-descricao{
   font-size: 18px;
 }
 
-.produtos-preco{
+.produto-preco{
   font-size: 22px;
   font-weight: bold;
-  margin-top: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .produtos li:hover{
@@ -79,7 +82,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-  border-color: slateblue;
+  border-color: gold;
 }
 
 footer{
@@ -89,14 +92,13 @@ footer{
 }
 
 .copyright{
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 13px;
   margin-top: 20px;
 }
 
 main{
-  width: 940px;
-  margin: 0 auto;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 form{
@@ -106,7 +108,7 @@ form{
 form label, form legend{
   display: block;
   font-size: 20px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .input-padrao{
@@ -116,26 +118,26 @@ form label, form legend{
   width: 50%;
 }
 
-.checkbox {
+.checkbox{
   margin: 20px 0;
 }
 
 .enviar{
   width: 40%;
   padding: 15px 0;
-  background: lightslategray;
-  color: mediumblue;
+  background: orange;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .enviar:hover{
-  background: gold;
-  transform: scale(0.8);
+  background: darkorange;
+  transform: scale(1.1);
 }
 
 table{
@@ -143,18 +145,18 @@ table{
 }
 
 thead{
-  background: lightslategray;
-  color: #ffffff;
+  background: #555555;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
 th, td{
   border: 2px solid #000000;
-  padding: 8px 15px;
+  padding: 10px 15px;
 }
 
 .banner{
-  width: 100%;
+  width: 100%
 }
 
 .titulo-principal{
@@ -171,7 +173,6 @@ th, td{
 }
 
 .principal{
-  background: #FEFEFE;
   padding: 1em 0;
   width: 940px;
   margin: 0 auto;
@@ -191,7 +192,7 @@ th, td{
 
 .beneficios{
   padding: 3em 0;
-  background: lightslategray;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -203,4 +204,20 @@ th, td{
 
 .imagem-beneficios{
   width: 50%;
+}
+
+.mapa{
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+  
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+}
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
 }
